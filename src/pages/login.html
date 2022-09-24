@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dangrek&family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Faça seu login</title>
+</head>
+<body>
+
+    <div>
+        <h2>Login</h2>
+        <form action="">
+            <input type="email" name="email" placeholder="Digite seu email" required>
+            <input type="password" name="password" placeholder="Digite sua senha" required>
+            <div class="containerBtn">
+                <button type="submit">Login</button>
+                <button onclick="window.location.href = './register.html'" id="btn-register">Cadastro</button>
+            </div>
+        </form>
+        <div id="alert-container">
+
+        </div>
+    </div>
+    
+
+    <script type="module" src="../js/script.js"></script>
+</body>
+</html>
