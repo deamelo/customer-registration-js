@@ -73,7 +73,7 @@ input {
     width: 300px;
 }
 
-button, #btn-login {
+button {
 
     display: flex;
     justify-content: center;

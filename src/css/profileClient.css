@@ -1,0 +1,61 @@
+body {
+    width: 100vw;
+    max-width: 1220px;
+    height: 100vh;
+
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    margin: 25px auto;
+    width: 90%;
+}
+
+section {
+
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    width: 50vw;
+}
+
+h2 {
+
+    font-family: 'Dangrek', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+
+    color: #212529;
+}
+
+button {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    height: 45px;
+
+    color: #F8F9FA;
+    background: #212529;
+
+    border: 1.5px solid #212529;
+    border-radius: 15px;
+
+    text-align: center;
+    line-height: 25px;
+
+    font-family: 'Dangrek', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
